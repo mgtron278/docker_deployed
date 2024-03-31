@@ -15,3 +15,9 @@ To active this specific environment:
     ...
     conda activate env_name/
     ...
+ ** NOTE **
+        Be careful while creating your procfile. Flask applications 
+        would require this specific command (web: gunicorn app:app)
+        and installation of gunicorn package to get deployed on
+        heroku
+        
