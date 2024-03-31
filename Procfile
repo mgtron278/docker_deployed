@@ -1,4 +1,4 @@
 
 
-web: python --port $PORT app.py
+web: python app.py
 
