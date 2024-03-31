@@ -1,4 +1,4 @@
 
 
-web: python app.py
+web: python run -m app.py $PORT
 
