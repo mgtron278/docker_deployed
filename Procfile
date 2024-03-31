@@ -1,4 +1,1 @@
-
-
-web: python run -m $PORT app.py
-
+web: gunicorn app:app
