@@ -1,2 +1,4 @@
 
-web: python --server.port $PORT app.py
+
+web: python --port $PORT app.py
+
