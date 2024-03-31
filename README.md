@@ -17,7 +17,7 @@ To active this specific environment:
     ...
  ** NOTE **
  
-        Be careful while creating your procfile. Flask applications 
+        Be careful while creating your Procfile. Flask applications 
         would require this specific command (web: gunicorn app:app)
         and installation of gunicorn package to get deployed on
         heroku
